@@ -1,1 +1,1 @@
-# Hipertekst-Hipermedia
+# Hipertekst-Hipermedia Valiaiev Kyrylo
