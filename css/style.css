@@ -23,11 +23,14 @@ p{
 }
 
 h3{
-    font-size: 16px;
+    font-size: 14px;
+    
 }
 
 h4{
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color:#ffffff;
 }
 
 .grid-container{
@@ -40,7 +43,7 @@ h4{
 .grid-container-header{
     display: grid;
     border: 1px solid red;
-    grid-template-columns: 1fr 800px;
+    grid-template-columns: 38% 62%;
     grid-template-rows: 100px 50px 120px 130px;
 }
 
@@ -51,11 +54,13 @@ h4{
 .item-1{
     grid-row-start: 1;
     grid-row-end: 3;
+    overflow: hidden;
 }
 
 .item-2{
     grid-row-start: 1;
     grid-row-end: 2;
+    overflow: hidden;
 }
 
 .item-3{
@@ -66,6 +71,7 @@ h4{
 .item-4{
     grid-row-start: 3;
     grid-row-end: 5;
+    overflow: hidden;
 }
 
 .header-background{
@@ -73,7 +79,7 @@ h4{
     background-image: url("../images/white-wood-textures_74190-4597.png"), url("../images/first-header-meat.jpg");  
     background-position: top left, top right;
     background-repeat: no-repeat,no-repeat;
-    background-size: 50% 100%, 70% 100%;
+    background-size: 51% 100%, 70% 100%;
     position: relative;
 }
 
@@ -109,11 +115,11 @@ h4{
 }
 
 .figure {
-    position: absolute; /* change on relative and try input logo and text !!!!!!!!!!*/
+    position: relative; /* change on relative and try input logo and text !!!!!!!!!!*/
     text-align: center;
     width: 0; 
     height: 0; 
-    margin-left: 9%;
+    margin-left: 24%;
     border-width: 115px 80px 30px;
     border-style: solid;
     border-color: #ffffff #ffffff transparent;
@@ -134,11 +140,30 @@ h4{
 }
 
 .figure-2{
-    width: 150px;
-    height: 200px;
+    width: 170px;
+    height: 220px;
+    margin-top:-15px;
     text-align: center;
-    margin-left:61px;
-    transform: skew(27.5deg);
-    background: rgb(253, 172, 22);
+    margin-left:62px;
+    -o-transform: skew(28deg);
+	-ms-transform: skew(28deg);
+	-moz-transform: skew(28deg);
+	-webkit-transform: skew(28deg);
+	transform: skew(28deg);
+    background:darkorange;
     opacity: 0.7;
+}
+
+.text-figure{
+    display: block;
+    padding:0;
+    margin: 0;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    -o-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-webkit-transform: skew(-20deg);
+	transform: skew(-20deg);
 }
