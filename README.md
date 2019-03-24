@@ -1,2 +1,2 @@
-# Hipertekst-Hipermedia Valiaiev Kyrylo
+# Hipertekst-Hipermedia
 #HTML5 CSS3
