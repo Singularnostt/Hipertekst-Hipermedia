@@ -16,31 +16,64 @@ body{
 p{
     font-size: 12px;
     text-align: right;
+    color: grey;
     font-family: 'Dancing Script';
     padding: 0;
     margin: 0;
 }
 
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 18px;
+}
+
 .grid-container{
     display: grid;
+    border: 1px solid black;
     grid-template-columns: 1fr;
-    grid-template-rows: 420px 300px 420px 300px 420px 300px;
+    grid-template-rows: 400px 300px 420px 300px 420px 300px;
+}
+
+.grid-container-header{
+    display: grid;
+    border: 1px solid red;
+    grid-template-columns: 1fr 800px;
+    grid-template-rows: 100px 50px 120px 130px;
+}
+
+.item{
+    border: 1px solid green;
 }
 
 .item-1{
-    display: grid;
-    border: 1px solid red;
-    grid-template-columns: 1fr 1 fr;
-    grid-template-rows: 420px ;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
+.item-2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item-3{
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.item-4{
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
 
 .header-background{
     height: 100%;
     background-image: url("../images/white-wood-textures_74190-4597.png"), url("../images/first-header-meat.jpg");  
     background-position: top left, top right;
     background-repeat: no-repeat,no-repeat;
-    background-size: 60% 100%;
+    background-size: 50% 100%, 70% 100%;
     position: relative;
 }
 
@@ -75,28 +108,37 @@ p{
 	color: darkorange;
 }
 
-
-.figur {
-    position: absolute;
+.figure {
+    position: absolute; /* change on relative and try input logo and text !!!!!!!!!!*/
     text-align: center;
     width: 0; 
     height: 0; 
-    margin-left: 8%;
-    border-width: 130px 80px 30px;
+    margin-left: 9%;
+    border-width: 115px 80px 30px;
     border-style: solid;
     border-color: #ffffff #ffffff transparent;
     }
 
-.figur-text{
+.figure-text{
     font-size: 20px;
     text-align: center;
     top:3%;
     padding-bottom: 0;
     margin-bottom: 0;
-    margin-left:10%;
+    margin-left:11%;
     position: absolute;
     font-family:'Quicksand'; 
     font-weight: 700;
     color: darkorange;
 
+}
+
+.figure-2{
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    margin-left:61px;
+    transform: skew(27.5deg);
+    background: rgb(253, 172, 22);
+    opacity: 0.7;
 }
