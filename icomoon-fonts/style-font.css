@@ -28,6 +28,11 @@
   content: "\e900";
 }
 .icon-menu1:before {
+  font-size: 16px;
+  float: left;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: -30px;
   content: "\e901";
 }
 .icon-menu:before {
@@ -41,6 +46,8 @@
 }
 .icon-restaurant-cutlery-circular-symbol-of-a-spoon-and-a-fork-in-a-circle:before {
   font-size: 60px;
+  position: relative;
+  z-index: 1;
   content: "\e905";
 }
 .icon-right-arrow:before {

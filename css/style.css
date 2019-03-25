@@ -22,6 +22,26 @@ p{
     margin: 0;
 }
 
+h1{
+    font-size:72px;
+    font-family:'Dancing Script';
+    color: darkorange; 
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    margin-bottom:-20px;
+}
+
+h2{
+    font-size:46px;
+    font-family:'Quicksand';
+    color:black; 
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
 h3{
     font-size: 14px;
     
@@ -33,18 +53,29 @@ h4{
     color:#ffffff;
 }
 
+
+h5{
+    font-size: 16px;
+    color: grey;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
 .grid-container{
     display: grid;
     border: 1px solid black;
     grid-template-columns: 1fr;
-    grid-template-rows: 400px 300px 420px 300px 420px 300px;
+    grid-template-rows: 450px 300px 450px 300px 450px 300px;
 }
 
 .grid-container-header{
     display: grid;
     border: 1px solid red;
     grid-template-columns: 38% 62%;
-    grid-template-rows: 100px 50px 120px 130px;
+    grid-template-rows: 100px 50px 120px 180px;
 }
 
 .item{
@@ -142,28 +173,50 @@ h4{
 .figure-2{
     width: 170px;
     height: 220px;
-    margin-top:-15px;
-    text-align: center;
-    margin-left:62px;
-    -o-transform: skew(28deg);
-	-ms-transform: skew(28deg);
-	-moz-transform: skew(28deg);
-	-webkit-transform: skew(28deg);
-	transform: skew(28deg);
+    margin-left:50px;
+    -o-transform: skew(25deg);
+	-ms-transform: skew(25deg);
+	-moz-transform: skew(25deg);
+	-webkit-transform: skew(25deg);
+	transform: skew(25deg);
     background:darkorange;
     opacity: 0.7;
 }
 
 .text-figure{
     display: block;
-    padding:0;
+    padding-top:8;
     margin: 0;
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    -o-transform: skew(-20deg);
-	-ms-transform: skew(-20deg);
-	-moz-transform: skew(-20deg);
-	-webkit-transform: skew(-20deg);
-	transform: skew(-20deg);
+    -o-transform: skew(-15deg);
+	-ms-transform: skew(-15deg);
+	-moz-transform: skew(-15deg);
+	-webkit-transform: skew(-15deg);
+	transform: skew(-15deg);
+}
+
+.text-item-4{
+    height:85%;
+    overflow: hidden;
+    text-align: left; 
+    margin-top: -50px;
+    padding-top: 0;
+    padding-left: 120px;
+}
+
+.button-header{
+    width: 150px;
+    height: 40px;
+    margin-left: 120px;
+    border:2px solid darkorange;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Quicksand';
+    padding-top: 15px;
+    padding-left: 10px;
+    color: darkorange;
 }
