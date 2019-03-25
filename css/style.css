@@ -68,7 +68,7 @@ h5{
     display: grid;
     border: 1px solid black;
     grid-template-columns: 1fr;
-    grid-template-rows: 450px 300px 450px 300px 450px 300px;
+    grid-template-rows: 450px 380px 450px 380px 450px 380px;
 }
 
 .grid-container-header{
@@ -76,6 +76,13 @@ h5{
     border: 1px solid red;
     grid-template-columns: 38% 62%;
     grid-template-rows: 100px 50px 120px 180px;
+}
+
+.grid-container-content-1{
+    display: grid;
+    border: 1px solid blue;
+    grid-template-columns: 1fr;
+    grid-template-rows: 280px 100px;
 }
 
 .item{
@@ -111,6 +118,15 @@ h5{
     background-position: top left, top right;
     background-repeat: no-repeat,no-repeat;
     background-size: 51% 100%, 70% 100%;
+    position: relative;
+}
+
+.content-1-background{
+    height: 100%;
+    background-image: url("../images/raw-tuna-fish-fillet-meat_74190-7247.jpg");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
     position: relative;
 }
 
@@ -181,6 +197,17 @@ h5{
 	transform: skew(25deg);
     background:darkorange;
     opacity: 0.7;
+}
+
+.text-content-1{
+    height: 233px;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 45px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid red;
+
 }
 
 .text-figure{
