@@ -13,6 +13,11 @@ body{
     font-family: 'Satisfy', cursive;
 }
 
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
 p{
     font-size: 12px;
     text-align: right;
@@ -66,39 +71,35 @@ h5{
 
 .grid-container{
     display: grid;
-    border: 1px solid black;
     grid-template-columns: 1fr;
     grid-template-rows: 450px 380px 450px 380px 450px 380px;
 }
 
 .grid-container-header{
     display: grid;
-    border: 1px solid red;
     grid-template-columns: 38% 62%;
     grid-template-rows: 100px 50px 120px 180px;
 }
 
 .grid-container-content-1{
     display: grid;
-    border: 1px solid blue;
     grid-template-columns: 1fr;
     grid-template-rows: 280px 100px;
 }
 
 .item{
-    border: 1px solid green;
+    margin: 0;
+    padding: 0;
 }
 
 .item-1{
     grid-row-start: 1;
     grid-row-end: 3;
-    overflow: hidden;
 }
 
 .item-2{
     grid-row-start: 1;
     grid-row-end: 2;
-    overflow: hidden;
 }
 
 .item-3{
@@ -109,7 +110,6 @@ h5{
 .item-4{
     grid-row-start: 3;
     grid-row-end: 5;
-    overflow: hidden;
 }
 
 .header-background{
@@ -130,7 +130,7 @@ h5{
     position: relative;
 }
 
-.navbar {
+.navbar-header {
     float: right;
     padding-left: 0px;
 	margin-top: 25px;
@@ -138,23 +138,95 @@ h5{
     list-style: none;
 }
 
-.navbar li {
+.navbar-header li {
     float: left;
     font-size: 14px;
     padding-left: 23px;
     padding-right: 23px;
     padding-bottom: 15px;
-    list-style-type: disc;
+    background: transparent url(http://i50.tinypic.com/bj0nm.png) center bottom no-repeat;
     color:lightgray;
     border-bottom: 2px solid lightgray;
 }
 
-.navbar li a {
+.navbar-header li a {
     color: #ffffff;
     font-family: 'Quicksand';
     font-weight: 500;
     letter-spacing: 2px;
 	text-decoration: none;
+}
+
+
+.navbar-content-1 {
+    margin: 0;
+    padding: 0;
+    padding-left: 7%;
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    list-style: none;
+}
+
+.navbar-content-1 li {
+    float: left;
+    padding-top: 1.75%;
+    width: 180px;
+    text-align: center;
+    background: transparent url(http://i46.tinypic.com/21c5h93.png) left center no-repeat;
+    font-size:22px;
+    color:lightgray;
+}
+
+.navbar-content-1 li a {
+    color: grey;    
+    font-family: 'Quicksand';
+    font-weight: 500;
+    letter-spacing: 2px;
+	text-decoration: none;
+}
+
+.special-nav {   
+    float: right;
+    text-align: center;
+    position: absolute;
+    background-color: darkorange;
+    width: 180px;
+    height: 110px;
+    text-decoration: none;
+    bottom: 0;
+    right:300px;
+}
+
+.special-nav-2{   
+    float: right;
+    text-align: center;
+    position: absolute;
+    background-color: black;
+    width: 180px;
+    height: 110px;
+    text-decoration: none;
+    bottom: 0;
+    right:120px;
+}
+
+.special-nav a{   
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Dancing Script';
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.special-nav-2 a{   
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Dancing Script';
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: bold;
 }
 
 .change_color a:hover {
@@ -200,14 +272,11 @@ h5{
 }
 
 .text-content-1{
-    height: 233px;
+    height: 100%;
     width: 50%;
     margin-left: 25%;
-    padding-top: 45px;
     overflow: hidden;
     text-align: center;
-    border: 1px solid red;
-
 }
 
 .text-figure{
@@ -247,3 +316,12 @@ h5{
     padding-left: 10px;
     color: darkorange;
 }
+
+.button-header a {
+    color: darkorange;
+    display: block;
+    text-align: center; 
+    text-decoration: none;
+    height: 100%;
+    width:100%;
+   }

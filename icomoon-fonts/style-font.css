@@ -25,6 +25,8 @@
 }
 
 .icon-clock:before {
+  color: darkorange;
+  font-weight: bold;
   content: "\e900";
 }
 .icon-menu1:before {
@@ -36,12 +38,15 @@
   content: "\e901";
 }
 .icon-menu:before {
+  color: darkorange;
+  font-weight: bold;
   content: "\e902";
 }
 .icon-phone-call:before {
   content: "\e903";
 }
 .icon-restaurant:before {
+  color: darkorange;
   content: "\e904";
 }
 .icon-restaurant-cutlery-circular-symbol-of-a-spoon-and-a-fork-in-a-circle:before {
