@@ -39,7 +39,7 @@
 }
 .icon-menu:before {
   color: darkorange;
-  font-weight: bold;
+  font-weight: bold;  
   content: "\e902";
 }
 .icon-phone-call:before {
