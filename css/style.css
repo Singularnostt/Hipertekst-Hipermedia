@@ -25,6 +25,7 @@ h1{
     font-family: 'Dancing Script';
     padding: 0;
     margin-bottom:-28px;
+    letter-spacing:-2;
 }
 
 h2{
@@ -49,7 +50,7 @@ h4{
     color: lightgrey;
     font-family: 'Martel';
     margin: 0;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 h5{
@@ -69,6 +70,28 @@ h6{
     padding-top: 15px;
 }
 
+h7{
+    font-size: 24px;
+    color: grey;
+    font-family: 'Dancing Script';
+    margin: 0;
+    padding-top: 15px;
+}
+
+h8{
+    font-size: 15px;
+    font-family: 'Biryani';
+    font-weight: bold;
+    color: white;
+}
+
+h9{
+    font-size: 24px;
+    color: black;
+    font-family: 'Dancing Script';
+    margin: 0;
+    padding-top: 15px;
+}
 /*-------------- Header start -------------*/
 
 .header{
@@ -89,15 +112,17 @@ img{
 }
 
 .navbar{
-	width: 800px;
+	width: 750px;
     height: 80px;
 	margin-right: 30px;
-	float: right;
+    float: right;
+    -webkit-box-shadow: 0 5.5px 2.5px -6px #ccc;
+    -moz-box-shadow: 0 5.5px 2.5px -6px #ccc;
+         box-shadow: 0 5.5px 2.5px -6px #ccc;
 }
 
 .navbar li{
-    width: 130px;
-	border-bottom: 1px solid #aaa;
+    width: 125px;
     float: left;
     color: #aaa;
     list-style: none;
@@ -127,6 +152,8 @@ img{
     border-width: 160px 100px 40px;
     border-style: solid;
     border-color: #ffffff #ffffff transparent;
+    box-shadow: -1px -20px 20px 0 #ccc; /* Border left */
+    box-shadow: -1px -20px 20px 0 #ccc; /* Border right */
 }
 
 .text-figure{
@@ -162,7 +189,28 @@ img{
     padding-left: 10px;
 }
 
+.button-content-3{
+    text-align: center;
+    width: 180px;
+    height: 30px;
+    margin-top:35px;
+    margin-bottom:35px;
+    padding: 15px;
+    padding-top: 20px;
+    border:2px solid orange;
+}
+
 .button-header a {
+    color: #000000;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    text-align: center; 
+    text-decoration: none;
+}
+
+.button-content-3 a {
     color: #000000;
     display: block;
     font-size: 16px;
@@ -173,24 +221,32 @@ img{
    }
 
 #figure-2{
-    width: 25%;
-    height: 240px;
+    width: 29%;
+    height: 290px;
     position: absolute;
     margin-top: 120px;
-    margin-left:33%;
+    margin-left:37%;
     background:orange;
     opacity: 0.6;
 }
 
+.figure-text-2{
+    position: absolute;
+    z-index: 2;
+    margin-top: 130px;
+    margin-left:calc(39% + 28px);
+    font-weight: bold;
+}
+
 .clip-mask-figure-2{
-    -webkit-clip-path: polygon(0 0, 65% 0, 100% 100%, 30% 100%);
-    clip-path: polygon(0 0, 65% 0, 100% 100%, 30% 100%);
+    -webkit-clip-path: polygon(0 0, 58% 0, 100% 100%, 40% 100%);
+    clip-path: polygon(0 0, 58% 0, 100% 100%, 40% 100%);
 }
 
 .clip-mask-background-left{
-width: 50%;
--webkit-clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
-clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+width: 55%;
+-webkit-clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
 }
 
 .navbar a:hover {
@@ -198,6 +254,10 @@ clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
 }
 
 .button-header a:hover {
+	color: orange;
+}
+
+.button-content-3 a:hover {
 	color: orange;
 }
 
@@ -281,10 +341,13 @@ clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
 /*--------Grid 2-----------*/
 .grid-container-2{
         display: grid;
-        padding-left: 10%;
-        padding-right: 40px;
+        padding-left: 8%;
+        padding-right: calc(28% - 180px);
         grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr, 1fr));
-        grid-template-rows: 1fr 360px 90px;
+        background: url("../images/content-3.png");
+        background-position: bottom right;
+        background-repeat:no-repeat;
+        background-size: cover ;
         margin: 0;
 }
 
@@ -295,24 +358,21 @@ clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
 }
 
 .item-1{
-    padding:20px;
+    padding-top:20px;
+    padding-bottom:20px;
     grid-column: 1/4;
-    border: 1px solid red;
 }
 .item-2{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 100px, 100px));
     margin: 0;
-    border: 1px solid red;
 }
 .item-3{
     display: grid;
     margin: 0;
-    border: 1px solid red;
 }
 .item-4{
     grid-column: 1/4;
-    border: 1px solid red;
 }
 /*--------Grid 2-----------*/
 
@@ -334,6 +394,19 @@ clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
     text-align: center;
 }
 /*-------------- Content-1 end -------------*/
+
+.content-3-text{
+    font-size: 20px;
+}
+
+.line3 {
+    margin: 25px;
+    margin-left: 0;
+    position: relative;
+    float: left;
+    width: 15%;
+    border-top: 2px solid lightgrey;
+}
 
 #menu-icon {
 
@@ -394,3 +467,4 @@ a:hover#menu-icon {
 
 	}
 }
+
