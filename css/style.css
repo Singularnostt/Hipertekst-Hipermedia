@@ -21,7 +21,7 @@ h1{
     font-weight: bold;
     position: relative;
     z-index: 1;
-    color: orange;
+    color: #FFC029;
     font-family: 'Dancing Script';
     padding: 0;
     margin-bottom:-28px;
@@ -31,7 +31,7 @@ h1{
 h2{
     font-size: 46px;
     font-weight: 800;
-    color: #000000;
+    color: rgb(44, 44, 44);
     font-family: 'Biryani';
     padding: 0;
     margin: 0;
@@ -46,9 +46,10 @@ h3{
 }
 
 h4{
-    font-size: 18px;
-    color: lightgrey;
+    font-size: 16px;
+    color: grey;
     font-family: 'Martel';
+    font-weight: 300;
     margin: 0;
     padding-top: 10px;
 }
@@ -72,7 +73,8 @@ h6{
 
 h7{
     font-size: 24px;
-    color: grey;
+    font-weight: bold;
+    color: lightgrey;
     font-family: 'Dancing Script';
     margin: 0;
     padding-top: 15px;
@@ -87,16 +89,23 @@ h8{
 
 h9{
     font-size: 24px;
-    color: black;
+    color: rgb(44, 44, 44);
     font-family: 'Dancing Script';
     margin: 0;
     padding-top: 15px;
+}
+
+h10{
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(44, 44, 44);
+    font-family: 'Dancing Script';
 }
 /*-------------- Header start -------------*/
 
 .header{
 	width: 100%;
-    height: 550px;
+    height: 600px;
     background-image:url("../images/first-header-meat.jpg");  
     background-position:center;
     background-repeat:no-repeat;
@@ -105,7 +114,7 @@ h9{
 }
 
 img{
-    height: 550px;
+    height: 600px;
     width: 100%;
     position: absolute;
     z-index: 1;
@@ -166,14 +175,14 @@ img{
     font-family:'Biryani'; 
     font-weight: 700;
     letter-spacing: -2 ;
-    color: orange;
+    color: #FFC029;
 }
 
 .header-text-left{
     text-align: left;
     position: absolute;
     z-index: 1;
-    margin-top: 220px;
+    margin-top: 230px;
     margin-left: calc(350px - calc(350px - 6%));
 }
 
@@ -182,9 +191,9 @@ img{
     z-index: 2;
     width: 180px;
     height: 30px;
-    margin-top: 470px;
+    margin-top: 490px;
     margin-left: calc(350px - calc(350px - 6%));
-    border:2px solid orange;
+    border:2px solid #FFC029;
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -192,16 +201,16 @@ img{
 .button-content-3{
     text-align: center;
     width: 180px;
-    height: 30px;
-    margin-top:35px;
-    margin-bottom:35px;
-    padding: 15px;
-    padding-top: 20px;
-    border:2px solid orange;
+    height: 9px;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border:2px solid #FFC029;
 }
 
 .button-header a {
-    color: #000000;
+    color: rgb(44, 44, 44);
     display: block;
     font-size: 16px;
     font-weight: bold;
@@ -211,7 +220,7 @@ img{
 }
 
 .button-content-3 a {
-    color: #000000;
+    color: rgb(44, 44, 44);
     display: block;
     font-size: 16px;
     font-weight: bold;
@@ -221,13 +230,13 @@ img{
    }
 
 #figure-2{
-    width: 29%;
+    width: 32%;
     height: 290px;
     position: absolute;
     margin-top: 120px;
     margin-left:37%;
-    background:orange;
-    opacity: 0.6;
+    background:#FFC029;
+    opacity: 0.7;
 }
 
 .figure-text-2{
@@ -239,26 +248,26 @@ img{
 }
 
 .clip-mask-figure-2{
-    -webkit-clip-path: polygon(0 0, 58% 0, 100% 100%, 40% 100%);
-    clip-path: polygon(0 0, 58% 0, 100% 100%, 40% 100%);
+    -webkit-clip-path: polygon(0 0, 62% 0, 100% 100%, 38% 100%);
+    clip-path: polygon(0 0, 62% 0, 100% 100%, 38% 100%);
 }
 
 .clip-mask-background-left{
-width: 55%;
+width: 57%;
 -webkit-clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
 clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
 }
 
 .navbar a:hover {
-	color: orange;
+	color: #FFC029;
 }
 
 .button-header a:hover {
-	color: orange;
+	color: #FFC029;
 }
 
 .button-content-3 a:hover {
-	color: orange;
+	color: #FFC029;
 }
 
 /*-------------- Header end -------------*/
@@ -280,7 +289,7 @@ clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
 
 
 .item a:hover{
-    color:orange;
+    color:rgb(44, 44, 44);
 }
 
 .special-nav a{
@@ -300,16 +309,16 @@ clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
 }
 
 .special-nav-2 a:hover{
-    color: orange;
+    color: #FFC029;
 }
 
 
 .item{
     line-height: 40px;
-    font-size: 22px;
     font-weight: bold;
     color: grey;
     padding: .5em;
+    padding-top:15px;
     text-align: center;
     background: transparent url(http://i46.tinypic.com/21c5h93.png) left center no-repeat;
    /* when width of window will be like smartphone and make all in 1 line
@@ -318,7 +327,7 @@ clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
 }
 
 .special-nav{
-    background: orange;
+    background: #FFC029;
     text-align: center;
     text-decoration: none;
     font-family: 'Dancing Script';
@@ -328,7 +337,7 @@ clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
 }
 
 .special-nav-2{
-    background: black;
+    background: rgb(44, 44, 44);
     text-align: center;
     text-decoration: none;
     font-family: 'Dancing Script';
@@ -357,8 +366,49 @@ clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
     margin: 0;
 }
 
+.container-4{
+    height: 450px;
+    background-image: url("../images/map_new_york.jpg");
+    background-repeat:no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+.figure-3{
+    height: 270px;
+    width: 355px;
+    margin-left: 15%;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 3;
+    background: #FFC029;
+    -webkit-clip-path: polygon(0 100%, 0 0, 90% 0, 91% 39%, 100% 47%, 91% 57%, 91% 100%);
+    clip-path: polygon(0 100%, 0 0, 90% 0, 91% 39%, 100% 47%, 91% 57%, 91% 100%);
+}
+
+.figure-4{
+    height: 85px;
+    width: 55px;
+    margin-left: 70%;
+    margin-top: 150px;
+    position: absolute;
+    z-index: 2;
+    background: #FFC029;
+    -webkit-clip-path: polygon(28% 0, 73% 0, 90% 20%, 90% 50%, 51% 100%, 9% 47%, 9% 19%);
+    clip-path: polygon(28% 0, 73% 0, 90% 20%, 90% 50%, 51% 100%, 9% 47%, 9% 19%);
+}
+
+.figure-3-text{
+    width: 300px;
+    margin-left: 16%;
+    margin-top: 140px;
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+}
+
 .item-1{
-    padding-top:20px;
+    padding-top:40px;
     padding-bottom:20px;
     grid-column: 1/4;
 }
@@ -373,13 +423,14 @@ clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
 }
 .item-4{
     grid-column: 1/4;
+    padding-bottom: 30px;
 }
 /*--------Grid 2-----------*/
 
 
 /*-------------- Content-1 start -------------*/
 .text-content-1{
-    min-height: 400px;
+    min-height: 365px;
     background-image: url("../images/raw-tuna-fish-fillet-meat_74190-7247.jpg");  
     background-position: center;
     background-repeat: no-repeat;
@@ -388,19 +439,22 @@ clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
 }
 
 .textblock{
-    width: 50%;
-    padding-top:50px;
-    margin-left: 25%;
+    width: 40%;
+    padding-top: 60px;
+    margin-left: 30%;
     text-align: center;
 }
 /*-------------- Content-1 end -------------*/
 
 .content-3-text{
-    font-size: 20px;
+    font-family: 'Martel';
+    color: rgb(44, 44, 44);
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .line3 {
-    margin: 25px;
+    margin: 20px;
     margin-left: 0;
     position: relative;
     float: left;
@@ -415,7 +469,7 @@ clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
     height: 50px;
     margin-top:25px;
     margin-right: 50px;
-    background: orange url(../images/menu-icon.png) center;
+    background: #FFC029 url(../images/menu-icon.png) center;
     border-radius: 50%;
 }
 
