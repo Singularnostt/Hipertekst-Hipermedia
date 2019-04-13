@@ -21,7 +21,7 @@ h1{
     font-weight: bold;
     position: relative;
     z-index: 1;
-    color: #FFC029;
+    color: #fcba1b;
     font-family: 'Dancing Script';
     padding: 0;
     margin-bottom:-28px;
@@ -106,7 +106,7 @@ h10{
 .header{
 	width: 100%;
     height: 600px;
-    background-image:url("../images/first-header-meat.jpg");  
+    background-image:url("../img/first-header-meat.jpg");  
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -176,7 +176,21 @@ img{
     font-family:'Biryani'; 
     font-weight: 700;
     letter-spacing: -2 ;
-    color: #FFC029;
+    color: #fcba1b;
+}
+
+.text-figure-2{
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+    margin-top: 150px;
+    margin-left: calc(50% - 50px);
+    text-align: center;
+    font-family:'Biryani'; 
+    font-weight: 700;
+    letter-spacing: -2 ;
+    color: #fcba1b;
 }
 
 .header-text-left{
@@ -194,7 +208,7 @@ img{
     height: 30px;
     margin-top: 490px;
     margin-left: calc(350px - calc(350px - 6%));
-    border:2px solid #FFC029;
+    border:2px solid #fcba1b;
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -207,7 +221,7 @@ img{
     margin-bottom:30px;
     padding: 10px;
     padding-bottom: 20px;
-    border:2px solid #FFC029;
+    border:2px solid #fcba1b;
 }
 
 .button-content-5{
@@ -216,8 +230,8 @@ img{
     height: 9px;
     padding: 10px;
     padding-bottom: 20px;
-    margin-left: calc(52% - 130px);
-    border:2px solid #FFC029;
+    margin-left: calc(50% - 100px);
+    border:2px solid #fcba1b;
 }
 
 .button-content-5 a {
@@ -232,7 +246,7 @@ img{
 
 .figure-content-5{
     padding: 5px 30px 5px 50px;
-    background: #FFC029;
+    background: #fcba1b;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
 }
@@ -264,12 +278,12 @@ img{
 }
 
 #figure-2{
-    width: 32%;
+    width: 30%;
     height: 290px;
     position: absolute;
     margin-top: 120px;
-    margin-left:37%;
-    background:#FFC029;
+    margin-left:36%;
+    background:#fcba1b;
     opacity: 0.7;
 }
 
@@ -282,26 +296,26 @@ img{
 }
 
 .clip-mask-figure-2{
-    -webkit-clip-path: polygon(0 0, 62% 0, 100% 100%, 38% 100%);
-    clip-path: polygon(0 0, 62% 0, 100% 100%, 38% 100%);
+    -webkit-clip-path: polygon(0 0, 65% 0, 100% 100%, 35% 100%);
+    clip-path: polygon(0 0, 65% 0, 100% 100%, 35% 100%);
 }
 
 .clip-mask-background-left{
-width: 57%;
--webkit-clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
-clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
+width: 55%;
+-webkit-clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
 }
 
 .navbar a:hover {
-	color: #FFC029;
+	color: #fcba1b;
 }
 
 .button-header a:hover {
-	color: #FFC029;
+	color: #fcba1b;
 }
 
 .button-content-3 a:hover {
-	color: #FFC029;
+	color: #fcba1b;
 }
 
 /*-------------- Header end -------------*/
@@ -343,7 +357,7 @@ clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
 }
 
 .special-nav-2 a:hover{
-    color: #FFC029;
+    color: #fcba1b;
 }
 
 
@@ -361,7 +375,7 @@ clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
 }
 
 .special-nav{
-    background: #FFC029;
+    background: #fcba1b;
     text-align: center;
     text-decoration: none;
     font-family: 'Dancing Script';
@@ -387,7 +401,7 @@ clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
         padding-left: 8%;
         padding-right: calc(28% - 180px);
         grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr, 1fr));
-        background: url("../images/content-3.png");
+        background: url("../img/content-3.png");
         background-position: bottom right;
         background-repeat:no-repeat;
         background-size: cover ;
@@ -404,7 +418,7 @@ clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
     display: grid;
     min-height: 600px;
     grid-template-columns: repeat(auto-fill, minmax(2fr, 1fr, 2fr));
-    background: url("../images/content-3.png");
+    background: url("../img/content-3.png");
     background-position: bottom right;
     background-repeat:no-repeat;
     background-size: cover ;
@@ -420,7 +434,7 @@ margin: 0;
 
 .container-4{
     height: 450px;
-    background-image: url("../images/map_new_york.jpg");
+    background-image: url("../img/map_new_york.svg");
     background-repeat:no-repeat;
     background-position: top right;
     background-size: cover;
@@ -433,7 +447,7 @@ margin: 0;
     margin-top: 100px;
     position: absolute;
     z-index: 3;
-    background: #FFC029;
+    background: #fcba1b;
     -webkit-clip-path: polygon(0 100%, 0 0, 90% 0, 91% 39%, 100% 47%, 91% 57%, 91% 100%);
     clip-path: polygon(0 100%, 0 0, 90% 0, 91% 39%, 100% 47%, 91% 57%, 91% 100%);
 }
@@ -445,7 +459,7 @@ margin: 0;
     margin-top: 150px;
     position: absolute;
     z-index: 2;
-    background: #FFC029;
+    background: #fcba1b;
     -webkit-clip-path: polygon(28% 0, 73% 0, 90% 20%, 90% 50%, 51% 100%, 9% 47%, 9% 19%);
     clip-path: polygon(28% 0, 73% 0, 90% 20%, 90% 50%, 51% 100%, 9% 47%, 9% 19%);
 }
@@ -483,7 +497,7 @@ margin: 0;
 
 .item-5{
     text-align: center;
-    padding-top:40px;
+    padding-top:60px;
     grid-column: 1/4;
 }
 
@@ -509,25 +523,59 @@ margin: 0;
     padding-right: calc(15% - 50px);
 }
 
-.item-9{
+.item-9 {
+    text-align: center;
     grid-column: 1/4;
-    padding-top: 45px;
+    padding-top: 65px;
+    padding-bottom: 45px;
 }
 
 .item-10{
+    margin-left: 50px;
+}
+
+.item-10 li{
     display: grid;
-    float: left;
-    padding-left: 20px;
-    padding-right: 20px;
+    text-align: center;
+    float:left;
+    min-width: 100px;
+    padding:35px 0px 25px 15px;
     margin: 0;
 }
 
+.item-10 li a{
+	text-align: center;
+    color: #ffffff;
+    font-family: 'Biryani';
+    font-weight: 400;
+    letter-spacing: 3px;
+	font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+}
+
 .item-11{
+    margin-right: 50px;
+}
+
+.item-11 li{
     display: grid;
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
+    text-align: center;
+    float:right;
+    min-width: 100px;
+    padding:35px 15px 25px 0px;
     margin: 0;
+}
+
+.item-11 li a{
+	text-align: center;
+    color: #ffffff;
+    font-family: 'Biryani';
+    font-weight: 400;
+    letter-spacing: 3px;
+	font-size: 14px;
+    text-decoration: none;
+    list-style: none;
 }
 /*--------Grid 2-----------*/
 
@@ -535,7 +583,7 @@ margin: 0;
 /*-------------- Content-1 start -------------*/
 .text-content-1{
     min-height: 365px;
-    background-image: url("../images/raw-tuna-fish-fillet-meat_74190-7247.jpg");  
+    background-image: url("../img/raw-tuna-fish-fillet-meat_74190-7247.jpg");  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -576,15 +624,49 @@ margin: 0;
 .content-5-text-2 a{
     font-weight: bold;
     font-family: 'Quicksand';
-    border-bottom: #FFC029 2px solid;
+    padding-bottom: 5px;
+    border-bottom: #fcba1b 2px solid;
     
 }
 
 .grid-container-7{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr 1fr));
-    border: 1px solid red;
+    grid-template-columns: 1fr;
+    background-color: #2c2c2c;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    min-height: 100px;
+}
 
+.grid-container-8{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #444;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    min-height: 100px;
+}
+
+.grid-container-8 li a{
+    padding-left: 20px;
+    padding-right: 5px;
+    color: grey;
+    font-family: 'Martel';
+    font-size: 14px;
+    letter-spacing: -1;
+}
+
+
+#figure-footer {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    width: 160px;
+    height: 135px;
+    margin-top:65px;
+    margin-left: calc(50% - 80px);
 }
 
 .line3 {
@@ -603,7 +685,7 @@ margin: 0;
     height: 50px;
     margin-top:25px;
     margin-right: 50px;
-    background: #FFC029 url(../images/menu-icon.png) center;
+    background: #fcba1b url(../img/menu-icon.png) center;
     border-radius: 50%;
 }
 
