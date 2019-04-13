@@ -64,5 +64,6 @@
 
 .icon-right-arrow:before {
   color: grey;
+  padding-left: 5px;
   content: "\e906";
 }
