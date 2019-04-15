@@ -58,7 +58,7 @@
   position: absolute;
   z-index: 1;
   margin-top: 10px;
-  margin-left: calc(6.3% + 68px);
+  margin-left: calc(5.6% + 68px);
   font-size: 80px;
   content: "\e905";
 }
@@ -67,4 +67,12 @@
   color: grey;
   padding-left: 5px;
   content: "\e906";
+}
+
+
+@media screen and (min-width:736px) and (max-width:990px){
+  .icon-restaurant-cutlery:before {
+    margin-left: calc(7.7% + 30px);
+    font-size: 70px;
+  }
 }

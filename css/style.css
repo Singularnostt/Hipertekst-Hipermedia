@@ -174,8 +174,8 @@ img{
     width: 0; 
     height: 0; 
     top: 0;
-    margin-left: calc(360px - calc(350px - 6%));
-    border-width: 160px 100px 40px;
+    margin-left: calc(350px - calc(350px - 6%));
+    border-width: 170px 100px 20px;
     border-style: solid;
     border-color: #ffffff #ffffff transparent;
     box-shadow: -1px -20px 20px 0 #ccc; /* Border left */
@@ -187,7 +187,7 @@ img{
     position: absolute;
     z-index: 1;
     margin-top: 90px;
-    margin-left: calc(6% + 35px);
+    margin-left: calc(5.3% + 37px);
     text-align: center;
     font-family:'Biryani'; 
     font-weight: 700;
@@ -675,6 +675,10 @@ margin: 0;
 }
 
 
+#fig-foot{
+    margin-left:-37px;
+}
+
 #figure-footer {
     position: absolute;
     background-color: #ffffff;
@@ -714,10 +718,20 @@ a:hover#menu-icon {
 
 @media only screen and (max-width : 1230px) {
 
+    .content-5-text{
+        font-size: 15px;
+    }
+
+    .item-6{
+        min-width: 230px;
+    }
+
+    .item-8{
+        min-width: 230px;
+    }
+
 	header {
-
 		position: absolute;
-
 	}
 
 	#menu-icon {
@@ -725,7 +739,6 @@ a:hover#menu-icon {
 	}
 
 	nav ul, nav:active ul { 
-
 		display: none;
 		position: absolute;
 		padding: 20px;
@@ -735,22 +748,78 @@ a:hover#menu-icon {
 		top: 60px;
 		width: 50%;
 		border-radius: 4px 0 4px 4px;
-
 	}
 
 	nav li {
-
 		text-align: center;
 		width: 100%;
 		padding: 10px 0;
 		margin: 0;
-
 	}
 
 	nav:hover ul {
-
 		display: block;
-
 	}
 }
 
+@media screen and (min-width:980px) and (max-width:990px){
+    #fig-foot{
+        margin-left:0px;
+    }
+
+    .text-figure-2{
+        margin-top: 144px;
+    }
+}
+
+@media screen and (min-width:736px) and (max-width:990px){
+
+    h1{
+        font-size: 70px;
+    }
+    
+    h2{
+        font-size: 42px;
+    }
+
+    h5{
+        width: 400px;
+        font-size: 16px;
+    }
+
+    #figure {
+        margin-left: calc(350px - calc(350px - 6%));
+        border-width: 150px 80px 20px;
+    }
+    
+    .text-figure{
+        font-size: 22px;
+        margin-top: 85px;
+        margin-left: calc(5% + 30px);
+    }
+
+    .button-header{
+        margin-top: 470px;
+    }
+}
+
+@media screen and (min-width:736px) and (max-width:900px){
+
+    h1{
+        font-size: 60px;
+    }
+    
+    h2{
+        font-size: 32px;
+        padding:10px 0px 5px 0px;
+    }
+
+    h5{
+        width: 285px;
+        font-size: 14px;
+    }
+
+    .button-header{
+        margin-top: 460px;
+    }
+}
