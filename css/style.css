@@ -136,37 +136,6 @@ img{
     background: #fff;
 }
 
-.navbar{
-	width: 750px;
-    height: 80px;
-	margin-right: 30px;
-    float: right;
-    -webkit-box-shadow: 0 5.5px 2.5px -6px rgb(233, 233, 233);
-    -moz-box-shadow: 0 5.5px 2.5px -6px rgb(233, 233, 233);
-         box-shadow: 0 5.5px 2.5px -6px rgb(233, 233, 233);
-}
-
-.navbar li{
-    width: 125px;
-    float: left;
-    color: #aaa;
-    list-style: none;
-}
-
-.navbar li a{
-	display: block;
-	line-height: 90px;
-	text-align: center;
-    color: #ffffff;
-    font-family: 'Quicksand';
-    font-weight: 500;
-    letter-spacing: 3px;
-	font-size: 17px;
-    text-decoration: none;
-    list-style: none;
-
-}
-
 #figure {
     position: absolute;
     z-index: 1;
@@ -339,9 +308,6 @@ clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
 	color: #fcba1b;
 }
 
-/*-------------- Header end -------------*/
-
-/*-------------- Grid 1 -------------*/
 .grid-container-1{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -389,11 +355,7 @@ clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
     padding: .5em;
     padding-top:15px;
     text-align: center;
-    /*border-left:1px solid #e4e2e2;*/
     background: transparent url(http://i46.tinypic.com/21c5h93.png) left center no-repeat;
-   /* when width of window will be like smartphone and make all in 1 line
-   border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;*/ 
 }
 
 .special-nav{
@@ -415,9 +377,7 @@ clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
     font-size: 38px;
     font-weight: bold;
 }
-/*-------------- Grid 1 -------------*/
 
-/*--------Grid 2-----------*/
 .grid-container-2{
         display: grid;
         padding-left: 8%;
@@ -606,10 +566,7 @@ margin: 0;
 .item-11 li a:hover{
     color: #fcba1b;
 }
-/*--------Grid 2-----------*/
 
-
-/*-------------- Content-1 start -------------*/
 .text-content-1{
     min-height: 365px;
     background-image: url("../img/raw-tuna-fish-fillet-meat_74190-7247.jpg");  
@@ -625,7 +582,6 @@ margin: 0;
     margin-left: 30%;
     text-align: center;
 }
-/*-------------- Content-1 end -------------*/
 
 .content-3-text{
     font-family: 'Martel';
@@ -764,29 +720,6 @@ a:hover#menu-icon {
 	#menu-icon {
         float:right;
 	}
-
-	nav ul, nav:active ul { 
-		display: none;
-		position: absolute;
-		padding: 20px;
-		background: #fff;
-		border: 5px solid #444;
-		right: 20px;
-		top: 60px;
-		width: 50%;
-		border-radius: 4px 0 4px 4px;
-	}
-
-	nav li {
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-		margin: 0;
-	}
-
-	nav:hover ul {
-		display: block;
-	}
 }
 
 @media screen and (min-width:980px) and (max-width:990px){
@@ -850,3 +783,82 @@ a:hover#menu-icon {
         margin-top: 460px;
     }
 }
+
+  .menu{
+	width: 680px;
+    margin: 10px 30px 10px 30px;
+    padding:20px 0px 10px 0px;
+    float: right;
+    -webkit-box-shadow: 0 5.5px 2.5px -6px rgb(233, 233, 233);
+    -moz-box-shadow: 0 5.5px 2.5px -6px rgb(233, 233, 233);
+         box-shadow: 0 5.5px 2.5px -6px rgb(233, 233, 233);
+  }
+  .menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.99s;
+
+	text-align: center;
+    color: #ffffff;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    letter-spacing: 3px;
+	font-size: 17px;
+    list-style: none;
+  }
+  .show-menu-btn,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  .show-menu-btn{
+    float: right;
+  }
+  .show-menu-btn i{
+    line-height: 100px;
+  }
+  .menu a:hover,
+  .show-menu-btn:hover,
+  .hide-menu-btn:hover{
+    color: #fcba1b;
+  }
+  
+  #chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+  
+  @media screen and (max-width:1230px) {
+    .show-menu-btn,.hide-menu-btn{
+      display: block;
+    }
+    .menu{
+      position: fixed;
+      z-index: 5;
+      width: 100%;
+      height: 100vh;
+      background: rgb(44, 44, 44);
+      right: -105%;
+      top: -1.5%;   
+      text-align: center;
+      line-height: normal;
+      transition: 0.99s;
+    }
+
+    .menu a{
+      display: block;
+      padding: 20px;
+    }
+    .hide-menu-btn{
+      position: absolute;
+      top: 40px;
+      right: 40px;
+    }
+    #chk:checked ~ .menu{
+      right: -2%;
+    }
+  }

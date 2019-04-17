@@ -7,11 +7,11 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="icomoon-fonts/style-font.css"/>
         <link rel="icon" type="image/x-icon" href="../Hipertekst-Hipermedia/img/hamburger.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
     </head>
     
     <body>
         <div class="header">
-                <a href="#" id="menu-icon"></a>
             <div>
                 <img src="img/white-wood-textures_74190-4597.jpg" class="clip-mask-background-left">
                 <div>
@@ -46,16 +46,22 @@
             </div>
             <div id="figure-2" class="clip-mask-figure-2">
             </div>
-                <nav>
-                    <ul class="navbar">
-                        <li><a href="#">MENU</a></li>
-                        <li><a href="#">CATERING</a></li>
-                        <li><a href="#">NEWS</a></li>
-                        <li><a href="#">OUR STORY</a></li>
-                        <li><a href="#">GALLERY</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
-                </nav>
+            <input type="checkbox" id="chk">
+            <label for="chk" class="show-menu-btn">
+              <i  id="menu-icon"></i>
+            </label>
+        
+            <ul class="menu">
+                <a href="#">MENU</a>
+                <a href="#">CATERING</a>
+                <a href="#">NEWS</a>
+                <a href="#">OUR STORY</a>
+                <a href="#">GALLERY</a>
+                <a href="#">CONTACT</a>
+              <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times" style="margin-right:5px; color:#fcba1b"></i>
+              </label>
+            </ul>
         </div>
 
         <div>
