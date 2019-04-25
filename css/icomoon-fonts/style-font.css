@@ -40,7 +40,6 @@
   color: #FFC53C;
   content: "\e902";
 }
-
 .icon-phone-call:before {
   font-size: 20px;
   font-weight: bold;
@@ -62,20 +61,17 @@
   font-size: 80px;
   content: "\e905";
 }
-
 .icon-right-arrow:before {
   color: grey;
   padding-left: 5px;
   content: "\e906";
 }
-
 @media screen and (min-width:736px) and (max-width:990px){
   .icon-restaurant-cutlery:before {
     margin-left: calc(7.7% + 30px);
     font-size: 70px;
   }
 }
-
 @media screen and (max-width:735px){
   .icon-restaurant-cutlery:before {
     margin-left: calc(15% - 15px);
