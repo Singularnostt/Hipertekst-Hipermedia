@@ -76,3 +76,10 @@
     font-size: 70px;
   }
 }
+
+@media screen and (max-width:735px){
+  .icon-restaurant-cutlery:before {
+    margin-left: calc(15% - 15px);
+    font-size: 70px;
+  }
+}
