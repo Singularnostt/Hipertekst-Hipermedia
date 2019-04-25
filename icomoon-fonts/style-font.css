@@ -69,7 +69,6 @@
   content: "\e906";
 }
 
-
 @media screen and (min-width:736px) and (max-width:990px){
   .icon-restaurant-cutlery:before {
     margin-left: calc(7.7% + 30px);
